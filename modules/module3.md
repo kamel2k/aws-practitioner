@@ -24,7 +24,7 @@ Pour déterminer la région appropriée pour vos services, données et applicati
 ## Zones de disponibilité (105 zones)
 Une zone de disponibilité se compose d'un ou pluieurs centres de données
 
-![](../images/az.png)<!-- .element height="55%" width="55%" --> 
+![](images/az.png)<!-- .element height="55%" width="55%" --> 
 
 Gros plan sur la région us-west 1. La Californie du Nord, l'Oregon et GovCloud (États-Unis, côte Ouest) sont des régions distinctes. La région Californie du Nord est appelée us-west 1, et elle contient trois zones de disponibilité (1a, 1b et 1c). Ensuite, au sein de chaque zone de disponibilité se trouvent trois centres de données.
 
@@ -32,7 +32,7 @@ Gros plan sur la région us-west 1. La Californie du Nord, l'Oregon et GovCloud 
 
 ## Instance Amazon EC2 dans une seule zone de disponibilité
 
-![](../images/ec2-az1.png)<!-- .element height="30%" width="30%" --> 
+![](images/ec2-az1.png)<!-- .element height="30%" width="30%" --> 
 
 Supposons que vous exécutez une application sur une seule instance Amazon EC2 dans la région Californie du Nord. L'instance est en cours d'exécution dans la zone de disponibilité us-west-1a. Si us-west-1a échouait, vous perdriez votre instance.
 
@@ -40,7 +40,7 @@ Supposons que vous exécutez une application sur une seule instance Amazon EC2 d
 
 ## Instances Amazon EC2 dans plusieurs zones de disponibilité
 
-![](../images/ec2-az2.png)<!-- .element height="30%" width="30%" --> 
+![](images/ec2-az2.png)<!-- .element height="30%" width="30%" --> 
 
 Une bonne pratique consiste à exécuter des applications dans au moins deux zones de disponibilité dans une région. Dans cet exemple, vous pouvez choisir d'exécuter une deuxième instance Amazon EC2 dans us-west-1b.
 
@@ -48,7 +48,7 @@ Une bonne pratique consiste à exécuter des applications dans au moins deux zon
 
 ## Échec de zone de disponibilité
 
-![](../images/ec2-az-fail.png)<!-- .element height="30%" width="30%" --> 
+![](images/ec2-az-fail.png)<!-- .element height="30%" width="30%" --> 
 
 
 Si us-west-1a échouait, votre application serait toujours en cours d'exécution dans us-west-1b.
@@ -79,7 +79,7 @@ Si us-west-1a échouait, votre application serait toujours en cours d'exécution
 
 Un emplacement périphérique est un site qu'Amazon CloudFront utilise afin de stocker des copies mises en cache de votre contenu plus près de vos clients aux fins d'une diffusion plus rapide.
 
-![](../images/edge-location.png)<!-- .element height="50%" width="50%" --> 
+![](images/edge-location.png)<!-- .element height="50%" width="50%" --> 
 
 ---
 
@@ -123,13 +123,13 @@ AWS CloudFormation met en service vos ressources de manière sûre et reproducti
 
 ## AWS CloudFormation
 
-![](../images/cloudformation1.png)
+![](images/cloudformation1.png)
 
 ---
 
 ## AWS CloudFormation
 
-![](../images/cloudformation2.png)
+![](images/cloudformation2.png)
 
 ---
 

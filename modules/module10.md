@@ -9,7 +9,7 @@
 
 Six pilliers
 
-![](../images/wellarchitected.png)<!-- .element height="55%" width="55%" --> 
+![](images/wellarchitected.png)<!-- .element height="55%" width="55%" --> 
 
 ---
 

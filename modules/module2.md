@@ -37,7 +37,7 @@ En comparaison, avec une instance Amazon EC2, vous pouvez utiliser un serveur vi
 
 ## Fonctionnement d'Amazon EC2
 
-![](../images/ec2-steps.jpg)
+![](images/ec2-steps.jpg)
 
 ---
 
@@ -324,7 +324,7 @@ Pour mettre à l'échelle plus rapidement, vous pouvez utiliser la mise à l'éc
 
 Période de faible demande  <!-- .element: style="font-size:50%; color:#FFFFFF" --> |  Période de forte demande <!-- .element: style="font-size:50%; color:#FFFFFF" -->
 :-------------------------:|:-------------------------:
-![](../images/elb1.png)<!-- .element height="80%" width="80%" -->  |  ![](../images/elb2.png)<!-- .element height="80%" width="80%" -->
+![](images/elb1.png)<!-- .element height="80%" width="80%" -->  |  ![](images/elb2.png)<!-- .element height="80%" width="80%" -->
 
 ---
 
@@ -332,7 +332,7 @@ Période de faible demande  <!-- .element: style="font-size:50%; color:#FFFFFF" 
 
 Applications monolithiques <!-- .element: style="font-size:50%; color:#FFFFFF" --> |  Applications microservices <!-- .element: style="font-size:50%; color:#FFFFFF" -->
 :-------------------------:|:-------------------------:
-![](../images/monolithe.png)<!-- .element height="50%" width="50%" -->  |  ![](../images/microservices.png)<!-- .element height="50%" width="50%" -->
+![](images/monolithe.png)<!-- .element height="50%" width="50%" -->  |  ![](images/microservices.png)<!-- .element height="50%" width="50%" -->
 
 
 - Pour maintenir la disponibilité de l'application en cas de défaillance d'un seul composant, vous pouvez concevoir votre application à l'aide d'une approche de microservices.
@@ -395,7 +395,7 @@ Applications monolithiques <!-- .element: style="font-size:50%; color:#FFFFFF" -
 
 ## Fonctionnement de AWS Lambda
 
-![](../images/lambda.png)
+![](images/lambda.png)
 
 ---
 

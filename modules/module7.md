@@ -23,7 +23,7 @@ Service de surveillance et de gestion des ressources AWS et des applications ex�
 
 ## Amazon CloudWatch : Tableau de bord
 
-![](../images/cloudwatch.png)<!-- .element height="80%" width="80%" -->
+![](images/cloudwatch.png)<!-- .element height="80%" width="80%" -->
 
 ---
 
@@ -44,7 +44,7 @@ Service qui permet la gouvernance, la conformité, l'audit opérationnel et la g
 
 ## Exemple : événement Cloud Trail
 
-![](../images/cloudtrail.png)<!-- .element height="80%" width="80%" -->
+![](images/cloudtrail.png)<!-- .element height="80%" width="80%" -->
 
 ---
 
@@ -92,7 +92,7 @@ Service qui permet la gouvernance, la conformité, l'audit opérationnel et la g
 
 ## Tableau de bord : trustadvisor
 
-![](../images/trustadvisor.jpg)<!-- .element height="80%" width="80%" -->
+![](images/trustadvisor.jpg)<!-- .element height="80%" width="80%" -->
 
 - La coche verte indique le nombre d'éléments pour lesquels aucun problème n'a été détecté.
 - Le triangle orange représente le nombre d'avertissements/recommandations

@@ -105,13 +105,13 @@ Pour la tarification Amazon S3, tenez compte des composants de coûts suivants :
 
 ## Tableau de bord de facturation
 
-![](../images/facturation1.png)<!-- .element height="80%" width="80%" -->
+![](images/facturation1.png)<!-- .element height="80%" width="80%" -->
 
 ---
 
 ## Tableau de bord de facturation
 
-![](../images/facturation2.png)<!-- .element height="80%" width="80%" -->
+![](images/facturation2.png)<!-- .element height="80%" width="80%" -->
 
 ---
 
@@ -128,7 +128,7 @@ Pour la tarification Amazon S3, tenez compte des composants de coûts suivants :
 
 Entreprise avec 3 comptes AWS avec 3 factures différentes
 
-![](../images/facture-consolide-1.png)<!-- .element height="80%" width="80%" -->
+![](images/facture-consolide-1.png)<!-- .element height="80%" width="80%" -->
 
 ---
 
@@ -137,19 +137,19 @@ Entreprise avec 3 comptes AWS avec 3 factures différentes
    - coûts des 3 comptes
    - facture unique de 73,80 USD 
 
-![](../images/facture-consolide-2.png)<!-- .element height="80%" width="80%" -->
+![](images/facture-consolide-2.png)<!-- .element height="80%" width="80%" -->
 
 ---
 
 Dans cet exemple, trois comptes AWS distincts ont transféré différentes quantités de données dans Amazon S3 au cours du mois en cours : 
 
-![](../images/facture-consolide-3.png)<!-- .element height="80%" width="80%" -->
+![](images/facture-consolide-3.png)<!-- .element height="80%" width="80%" -->
 
 Étant donné qu'aucun compte n'a dépassé le seuil de 10 To, aucun d'entre eux n'est éligible au prix de transfert par Go moindre pour les 40 prochains To de données transférées.
 
 ---
 
-![](../images/facture-consolide-4.png)<!-- .element height="80%" width="80%" -->
+![](images/facture-consolide-4.png)<!-- .element height="80%" width="80%" -->
 
 - Avec la facture consolidée : dépassement du seuil de transfert de données S3 (14To)
 - AWS alloue ensuite à chaque compte lié une partie de la remise sur volume globale en fonction de l'utilisation du compte. 
@@ -169,7 +169,7 @@ Dans cet exemple, trois comptes AWS distincts ont transféré différentes quant
 Supposons que vous ayez défini un budget pour Amazon EC2. Vous souhaitez vous assurer que l'utilisation d'Amazon EC2 par votre entreprise ne dépasse pas 200 USD pour le mois. 
 
 
-![](../images/budget.jpg)<!-- .element height="80%" width="80%" -->
+![](images/budget.jpg)<!-- .element height="80%" width="80%" -->
 
 ---
 
@@ -180,7 +180,7 @@ Supposons que vous ayez défini un budget pour Amazon EC2. Vous souhaitez vous a
 
 ---
 
-![](../images/costexplorer.png)<!-- .element height="80%" width="80%" -->
+![](images/costexplorer.png)<!-- .element height="80%" width="80%" -->
 
 ---
 
@@ -274,7 +274,7 @@ Les clients disposant d'une formule de Support Business ont accès à des foncti
   
 ---
 
-![](../images/marketplace.png)<!-- .element height="80%" width="80%" -->
+![](images/marketplace.png)<!-- .element height="80%" width="80%" -->
 
 ---
 

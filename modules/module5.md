@@ -23,7 +23,7 @@
 |   |  |  |
 |:-------------------------:|:-------------------------:|:---------------------------:|
 | Une instance Amazon EC2 avec un stockage d'instances attaché est en cours d'exécution <!-- .element: style="font-size:50%; color:#FFFFFF" -->  |  L'instance est arrêtée ou résiliée <!-- .element: style="font-size:50%; color:#FFFFFF" -->  | Toutes les données du stockage d'instance attaché sont supprimées <!-- .element: style="font-size:50%; color:#FFFFFF" -->  |  
-|![](../images/instance1.png)<!-- .element height="80%" width="80%" -->  |  ![](../images/instance2.png)<!-- .element height="80%" width="80%" --> | ![](../images/instance3.png)<!-- .element height="80%" width="80%" --> |
+|![](images/instance1.png)<!-- .element height="80%" width="80%" -->  |  ![](images/instance2.png)<!-- .element height="80%" width="80%" --> | ![](images/instance3.png)<!-- .element height="80%" width="80%" --> |
 
 ---
 
@@ -43,7 +43,7 @@
 
 ## Instantanés Amazon EBS
 
-![](../images/snapshotebs.png)
+![](images/snapshotebs.png)
 
 ---
 
@@ -78,7 +78,7 @@
 
 ## Stockage objet
 
-![](../images/stockage-objet.png)<!-- .element height="40%" width="40%" --> 
+![](images/stockage-objet.png)<!-- .element height="40%" width="40%" --> 
 
 - chaque objet se compose de données, de métadonnées et d'une clé.
 - Les données peuvent être une image, une vidéo, un document texte ou tout autre type de fichier. 
@@ -211,7 +211,7 @@ Amazon S3 Outposts fournit un stockage d'objets à votre environnement AWS Outpo
 
 |   |  | 
 |:-------------------------:|:-------------------------:|
-|![](../images/ebs-vs.png)  |  ![](../images/s3-vs.png) | 
+|![](images/ebs-vs.png)  |  ![](images/s3-vs.png) | 
 
 ---
 
@@ -229,7 +229,7 @@ Amazon S3 Outposts fournit un stockage d'objets à votre environnement AWS Outpo
 
 |   |  | 
 |:-------------------------:|:-------------------------:|
-|![](../images/efs-resume.png)<!-- .element height="50%" width="50%" -->   |  ![](../images/ebs-resume.png)<!-- .element height="50%" width="50%" -->  | 
+|![](images/efs-resume.png)<!-- .element height="50%" width="50%" -->   |  ![](images/ebs-resume.png)<!-- .element height="50%" width="50%" -->  | 
 
 ---
 
@@ -277,7 +277,7 @@ Amazon RDS est disponible sur six moteurs de bases de données, qui optimisent l
 
 |   |  | 
 |:-------------------------:|:-------------------------:|
-|![](../images/rds-vs.png)   |  ![](../images/dynamo-vs.png)  | 
+|![](images/rds-vs.png)   |  ![](images/dynamo-vs.png)  | 
 
 ---
 

@@ -216,7 +216,7 @@ La mise hors service est le processus qui permet de supprimer des applications q
 
 ensemble de périphériques physiques qui permettent de transporter physiquement des données, jusqu'à plusieurs exaoctets, vers et hors d'AWS. 
 
-![](../images/snow.jpg)<!-- .element height="55%" width="55%" --> 
+![](images/snow.jpg)<!-- .element height="55%" width="55%" --> 
 
 ---
 
@@ -227,7 +227,7 @@ ensemble de périphériques physiques qui permettent de transporter physiquement
 
 ---
 
-![](../images/snowcone.jpg)<!-- .element height="55%" width="55%" --> 
+![](images/snowcone.jpg)<!-- .element height="55%" width="55%" --> 
 
 ---
 
@@ -242,7 +242,7 @@ ensemble de périphériques physiques qui permettent de transporter physiquement
 
 ---
 
-![](../images/snowball2.jpg)<!-- .element height="55%" width="55%" --> 
+![](images/snowball2.jpg)<!-- .element height="55%" width="55%" --> 
 
 ---
 
@@ -253,7 +253,7 @@ ensemble de périphériques physiques qui permettent de transporter physiquement
 
 ---
 
-![](../images/snowmobile.jpg)<!-- .element height="55%" width="55%" --> 
+![](images/snowmobile.jpg)<!-- .element height="55%" width="55%" --> 
 
 ---
 

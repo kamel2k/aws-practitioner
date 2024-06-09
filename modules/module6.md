@@ -12,19 +12,19 @@
 
 ## Modèle de responsabilité partagée
 
-![](../images/responsabilite.png)
+![](images/responsabilite.png)
 
 ---
 
 ## Exemple avec EC2
 
-![](../images/resp-ec2.png)
+![](images/resp-ec2.png)
 
 ---
 
 ## Responsabilité partagée
 
-![](../images/resp-resume.png)
+![](images/resp-resume.png)
 
 ---
 
@@ -70,7 +70,7 @@ AWS IAM : AWS Identity and Access Management
 - Utilisateur principal
 - Accès complet à tous les services et ressources AWS du compte
 
-![](../images/sec-iam-racine.png)
+![](images/sec-iam-racine.png)
 
 ---
 
@@ -102,7 +102,7 @@ AWS IAM : AWS Identity and Access Management
 
 ## Exemple de politique IAM
 
-![](../images/sec-iam-policy.png)
+![](images/sec-iam-policy.png)
 
 ---
 
@@ -132,7 +132,7 @@ exemple : Groupe développeurs
 
 |   |  |  |
 |:-------------------------:|:-------------------------:|:---------------------------:|
-|![](../images/sec-role-1.png)<!-- .element height="80%" width="80%" -->  |  ![](../images/sec-role-2.png)<!-- .element height="80%" width="80%" --> | ![](../images/sec-role-3.png)<!-- .element height="80%" width="80%" --> |
+|![](images/sec-role-1.png)<!-- .element height="80%" width="80%" -->  |  ![](images/sec-role-2.png)<!-- .element height="80%" width="80%" --> | ![](images/sec-role-3.png)<!-- .element height="80%" width="80%" --> |
 
 ---
 
@@ -142,7 +142,7 @@ exemple : Groupe développeurs
 
 |   |   |
 |:-------------------------:|:---------------------------:|
-|![](../images/sec-mfa-1.png)<!-- .element height="80%" width="80%" -->  |  ![](../images/sec-mfa-2.png)<!-- .element height="80%" width="80%" --> |
+|![](images/sec-mfa-1.png)<!-- .element height="80%" width="80%" -->  |  ![](images/sec-mfa-2.png)<!-- .element height="80%" width="80%" --> |
 
 ---
 
@@ -160,7 +160,7 @@ exemple : Groupe développeurs
 
 |   |  |  |
 |:-------------------------:|:-------------------------:|:---------------------------:|
-|![](../images/sec-org-1.png)<!-- .element height="80%" width="80%" -->  |  ![](../images/sec-org-2.png)<!-- .element height="80%" width="80%" --> | ![](../images/sec-org-3.png)<!-- .element height="80%" width="80%" --> |
+|![](images/sec-org-1.png)<!-- .element height="80%" width="80%" -->  |  ![](images/sec-org-2.png)<!-- .element height="80%" width="80%" --> | ![](images/sec-org-3.png)<!-- .element height="80%" width="80%" --> |
 
 ---
 
@@ -197,7 +197,7 @@ exemple : Groupe développeurs
 
 ## conformite
 
-![](../images/conformite.jpg)
+![](images/conformite.jpg)
 
 ---
 
@@ -237,13 +237,13 @@ exemple : Groupe développeurs
 
 ## Attaques par déni de service (DoS)
 
-![](../images/dos.png)
+![](images/dos.png)
 
 ---
 
 ## Attaques par déni de service distribué (DDoS)
 
-![](../images/ddos.png)
+![](images/ddos.png)
 
 ---
 
@@ -316,13 +316,13 @@ exemple : Groupe développeurs
 -  service qui fournit une détection intelligente des menaces pour votre infrastructure et vos ressources AWS
 -  détecte les menaces grâce à une surveillance en continu des activités de réseau et des comportements de compte au sein de votre environnement AWS
 
-![](../images/guardduty.png)<!-- .element height="80%" width="80%" -->
+![](images/guardduty.png)<!-- .element height="80%" width="80%" -->
 
 ---
 
 ## Inspector vs GuardDuty
 
-![](../images/insp-vs-duty.png)<!-- .element height="80%" width="80%" -->
+![](images/insp-vs-duty.png)<!-- .element height="80%" width="80%" -->
 
 ---
 

@@ -20,7 +20,7 @@
 
 ## Amazon VPC (Virtual Private Cloud)
 
-![](../images/vpc.png)<!-- .element height="55%" width="55%" --> 
+![](images/vpc.png)<!-- .element height="55%" width="55%" --> 
 
 ---
 
@@ -28,7 +28,7 @@
 
 Pour autoriser le trafic public à partir d'Internet à accéder à votre VPC, associez une passerelle Internet au VPC.
 
-![](../images/ig.png)<!-- .element height="55%" width="55%" --> 
+![](images/ig.png)<!-- .element height="55%" width="55%" --> 
 
 ---
 
@@ -37,19 +37,19 @@ Pour autoriser le trafic public à partir d'Internet à accéder à votre VPC, a
 - Une passerelle de réseau privé virtuel vous permet d'établir une connexion de réseau privé virtuel (VPN) entre votre VPC et un réseau privé, tel qu'un centre de données sur site ou un réseau interne d'entreprise. 
 - Une passerelle réseau privé virtuel autorise le trafic vers le VPC uniquement s'il provient d'un réseau approuvé.
 
-![](../images/passerelle-reseau-privee.png)<!-- .element height="55%" width="55%" --> 
+![](images/passerelle-reseau-privee.png)<!-- .element height="55%" width="55%" --> 
 
 ## AWS Direct Connect
 
 -  Service qui vous permet d'établir une connexion privée dédiée entre votre centre de données et un VPC
 
-![](../images/direct-connect1.png)<!-- .element height="55%" width="55%" --> 
+![](images/direct-connect1.png)<!-- .element height="55%" width="55%" --> 
 
 ---
 
 ## AWS Direct Connect : Details
 
-![](../images/direct-connect.png)<!-- .element height="55%" width="55%" --> 
+![](images/direct-connect.png)<!-- .element height="55%" width="55%" --> 
 
 ---
 
@@ -64,13 +64,13 @@ Pour autoriser le trafic public à partir d'Internet à accéder à votre VPC, a
 
 ## Sous-réseaux : Suite
 
-![](../images/sous-reseau.png)<!-- .element height="55%" width="55%" --> 
+![](images/sous-reseau.png)<!-- .element height="55%" width="55%" --> 
 
 ---
 
 ## ACL réseau : schéma du principe
 
-![](../images/acl.png)<!-- .element height="55%" width="55%" --> 
+![](images/acl.png)<!-- .element height="55%" width="55%" --> 
 
 ---
 
@@ -88,7 +88,7 @@ Pour autoriser le trafic public à partir d'Internet à accéder à votre VPC, a
 
 ## Groupe de sécurité : schéma du principe
 
-![](../images/sg.png)<!-- .element height="55%" width="55%" --> 
+![](images/sg.png)<!-- .element height="55%" width="55%" --> 
 
 ---
 
@@ -103,13 +103,13 @@ Pour autoriser le trafic public à partir d'Internet à accéder à votre VPC, a
 
 ## Groupe de sécurité vs ACL
 
-![](../images/sg-acl.png)<!-- .element height="55%" width="55%" --> 
+![](images/sg-acl.png)<!-- .element height="55%" width="55%" --> 
 
 ---
 
 ## Simulation d'un paquet qui part d'une instance A à une instance B dans deux sous réseaux différents d'un même VPC
 
-![](../images/simulation.png)<!-- .element height="55%" width="55%" --> 
+![](images/simulation.png)<!-- .element height="55%" width="55%" --> 
 
 ---
 
@@ -136,7 +136,7 @@ Pour autoriser le trafic public à partir d'Internet à accéder à votre VPC, a
 ## Amazon Cloudfront
 
 
-![](../images/cloudfront2.png)<!-- .element height="43%" width="43%" --> 
+![](images/cloudfront2.png)<!-- .element height="43%" width="43%" --> 
 
 - Un client demande des données à partir de l'application en se rendant sur le site web de l'entreprise X.
 - Amazon Route 53 utilise la résolution DNS pour identifier l'adresse IP correspondante au site web de l'entreprise X,192.0.2.0. Ces informations sont renvoyées au client. 
