@@ -49,7 +49,7 @@
 
 ## Instantanés Amazon EBS : Suite
 
-- Un instantané EBS(opens in a new tab) est une sauvegarde progressive. Cela signifie que la première sauvegarde d'un volume copie toutes les données. Pour les sauvegardes suivantes, seuls les blocs de données qui ont été modifiés depuis le dernier instantané sont enregistrés. 
+- Un instantané EBS est une sauvegarde progressive. Cela signifie que la première sauvegarde d'un volume copie toutes les données. Pour les sauvegardes suivantes, seuls les blocs de données qui ont été modifiés depuis le dernier instantané sont enregistrés. 
 - Les sauvegardes progressives sont différentes des sauvegardes complètes, dans lesquelles toutes les données d'un volume de stockage sont copiées à chaque sauvegarde. La sauvegarde complète inclut les données qui n'ont pas été modifiées depuis la dernière sauvegarde.
 
 ---
@@ -165,7 +165,7 @@ Lorsque vous choisissez l'une des options pour le stockage d'archives, tenez com
 - Stockage économique conçu pour l'archivage des données
 - Capable de récupérer des objets entre quelques minutes et quelques heures
 
-S3 Glacier Flexible Retrieval est une classe de stockage économique idéale pour l'archivage des données. Par exemple, vous pouvez utiliser cette classe de stockage pour stocker des dossiers clients archivés ou des photos et des fichiers vidéo plus anciens. Vous pouvez récupérer vos données à partir de S3 Glacier Flexible Retrieval entre 1 minute et 12 heures.
+S3 Glacier Flexible Retrieval est une classe de stockage économique idéale pour l'archivage des données. Par exemple, vous pouvez utiliser cette classe de stockage pour stocker des dossiers clients archivés ou des photos et des fichiers vidéo plus anciens. Vous pouvez récupérer vos données à partir de S3 Glacier Flexible Retrieval entre <ins>1 minute et 12 heures</ins>.
 
 ---
 
@@ -174,7 +174,7 @@ S3 Glacier Flexible Retrieval est une classe de stockage économique idéale pou
 - Classe de stockage la moins chère pour l'archivage
 - Capable de récupérer des objets dans un délai de 12 heures
 
-S3 Deep Archive prend en charge la rétention à long terme et la préservation numérique des données qui peuvent être consultées une ou deux fois par an. Cette classe de stockage est le stockage le moins cher dans le Cloud AWS, avec une récupération des données entre 12 et 48 heures. Tous les objets de cette classe de stockage sont répliqués et stockés dans au moins trois zones de disponibilité géographiquement dispersées.
+S3 Deep Archive prend en charge la rétention à long terme et la préservation numérique des données qui peuvent être consultées une ou deux fois par an. Cette classe de stockage est le stockage le moins cher dans le Cloud AWS, avec une récupération des données entre <ins>12 et 48 heures</ins>. Tous les objets de cette classe de stockage sont répliqués et stockés dans au moins trois zones de disponibilité géographiquement dispersées.
 
 ---
 

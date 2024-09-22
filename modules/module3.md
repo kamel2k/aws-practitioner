@@ -113,6 +113,13 @@ Vous fournissez le code et les paramètres de configuration, et Elastic Beanstal
 
 ---
 
+## AWS Elastic Beanstalk
+
+![](images/EB.png)
+
+---
+
+
 ## AWS CloudFormation
 
 Vous pouvez traiter votre Infrastructure as Code. Cela signifie que vous pouvez créer un environnement en écrivant des lignes de code au lieu d'utiliser la Console de gestion AWS pour mettre en service individuellement des ressources.

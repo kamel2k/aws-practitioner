@@ -39,6 +39,8 @@ Pour autoriser le trafic public à partir d'Internet à accéder à votre VPC, a
 
 ![](images/passerelle-reseau-privee.png)<!-- .element height="55%" width="55%" --> 
 
+--- 
+
 ## AWS Direct Connect
 
 -  Service qui vous permet d'établir une connexion privée dédiée entre votre centre de données et un VPC
@@ -79,9 +81,9 @@ Pour autoriser le trafic public à partir d'Internet à accéder à votre VPC, a
 - Une liste de contrôle d'accès (ACL) réseau est un pare-feu virtuel qui contrôle le trafic entrant et sortant au niveau des sous-réseaux
 - Chaque compte AWS inclut une liste ACL réseau par défaut
 - Lors de la configuration de votre VPC, vous pouvez utiliser la liste ACL réseau par défaut de votre compte ou créer des listes ACL réseau personnalisées. 
-- La liste ACL réseau par défaut de votre compte autorise tout le trafic entrant et sortant
--  Pour les ACL réseau personnalisées, tout le trafic entrant et sortant est refusé jusqu'à ce que vous ajoutiez des règles pour spécifier le trafic à autoriser
-- Les listes ACL réseau effectuent un filtrage des paquets **sans état (stateless)** Ils ne se souviennent de rien et vérifient les paquets qui traversent la frontière du sous-réseau dans les deux sens : entrants et sortants. 
+- La liste ACL réseau par <ins>défaut</ins> de votre compte <ins>autorise tout le trafic entrant et sortant</ins>
+-  Pour les <ins>ACL réseau personnalisées</ins>, tout le <ins>trafic entrant et sortant est refusé</ins> jusqu'à ce que vous <ins>ajoutiez des règles</ins> pour spécifier le trafic à autoriser
+- Les listes ACL réseau effectuent un filtrage des paquets <ins>**sans état (stateless)**</ins> Ils ne se souviennent de rien et vérifient les paquets qui traversent la frontière du sous-réseau dans les deux sens : entrants et sortants. 
 - Une fois qu'un paquet est entré dans un sous-réseau, ses autorisations doivent être évaluées pour les ressources du sous-réseau, telles que les instances Amazon EC2. 
 
 ---
@@ -95,9 +97,9 @@ Pour autoriser le trafic public à partir d'Internet à accéder à votre VPC, a
 ## Groupe de sécurité
 
 - Un groupe de sécurité est un pare-feu virtuel qui contrôle le trafic entrant et sortant d'une instance Amazon EC2.
-- Par défaut, un groupe de sécurité refuse tout le trafic entrant et autorise tout le trafic sortant.
+- Par <ins>défaut</ins>, un groupe de sécurité <ins>refuse tout le trafic entrant</ins> et <ins>autorise tout le trafic sortant</ins>.
 - Si vous avez plusieurs instances Amazon EC2 au sein d'un même VPC, vous pouvez les associer au même groupe de sécurité ou utiliser des groupes de sécurité différents pour chaque instance. 
-- Les groupes de sécurité effectuent un filtrage des paquets avec état. Ils se souviennent des décisions antérieures prises pour les paquets entrants.
+- Les groupes de sécurité effectuent un filtrage des paquets <ins>avec état</ins>. Ils se souviennent des décisions antérieures prises pour les paquets entrants.
 
 ---
 

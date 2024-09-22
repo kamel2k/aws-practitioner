@@ -68,23 +68,23 @@ Supposons que vous ayez une application dans laquelle les besoins en ressources 
 
 Les instances de calcul optimisées sont idéales pour les applications liées aux calculs qui bénéficient des processeurs hautes performances. Comme les instances à usage général, vous pouvez utiliser des instances de calcul optimisées pour des charges de travail telles que des serveurs web, d'applications et de jeux.
 
-Cependant, la différence est que les applications de calcul optimisées sont idéales pour les serveurs web hautes performances, les serveurs d'applications exigeantes en calcul et les serveurs de jeux dédiés. Vous pouvez également utiliser des instances de calcul optimisées pour les charges de travail de traitement par lots qui nécessitent le traitement de nombreuses transactions dans un seul groupe.
+Cependant, la différence est que les applications de calcul optimisées sont idéales pour <ins>les serveurs web hautes performances</ins>, les serveurs d'applications exigeantes en calcul et les serveurs de jeux dédiés. Vous pouvez également utiliser des instances de calcul optimisées pour les charges de travail de <ins>traitement par lots</ins> qui nécessitent le traitement de nombreuses transactions dans un seul groupe.
 
 ---
 
 ## Instances optimisées en mémoire
 
-Les instances optimisées en mémoire sont conçues pour fournir des performances rapides pour les charges de travail qui traitent de grands jeux de données en mémoire. Avant qu'un programme ou une application ne puisse s'exécuter, il est chargé depuis le stockage dans la mémoire. Ce processus de préchargement donne au CPU un accès direct au programme informatique.
+Les instances optimisées en mémoire sont conçues pour fournir des performances rapides pour les charges de travail qui traitent de grands jeux de données en mémoire. Avant qu'un programme ou une application ne puisse s'exécuter, il est <ins>chargé depuis le stockage dans la mémoire</ins>. Ce processus de préchargement donne au CPU un accès direct au programme informatique.
 
-Les instances optimisées pour la mémoire vous permettent d'exécuter des charges de travail avec des besoins de mémoire élevés et de bénéficier de performances exceptionnelles. Exemples scénario : une base de données hautes performances ou une charge de travail impliquant le traitement en temps réel d'une grande quantité de données non structurées
+Les instances optimisées pour la mémoire vous permettent d'exécuter des charges de travail avec des besoins de mémoire élevés et de bénéficier de performances exceptionnelles. Exemples scénario : <ins>une base de données hautes performances</ins> ou une charge de travail impliquant le <ins>traitement en temps réel</ins> d'une grande quantité de données non structurées
 
 ---
 
 ## Instances de calcul accéléré
 
-Les instances de calcul accéléré utilisent des accélérateurs matériels, ou coprocesseurs, pour exécuter certaines fonctions plus efficacement que ce qui est possible dans les logiciels s'exécutant sur des processeurs. Les exemples de ces fonctions incluent les calculs de nombres à virgule flottante, le traitement de graphiques et l'appariement des schémas de données.
+Les instances de calcul accéléré utilisent des accélérateurs matériels, ou coprocesseurs, pour exécuter certaines fonctions plus efficacement que ce qui est possible dans les logiciels s'exécutant sur des processeurs. Les exemples de ces fonctions incluent <ins>les calculs de nombres à virgule flottante</ins>, <ins>le traitement de graphiques</ins> et <ins>l'appariement des schémas de données</ins>.
 
-En informatique, un accélérateur matériel est un composant qui peut accélérer le traitement des données. Les instances de calcul accéléré sont idéales pour les charges de travail telles que les applications graphiques, le streaming de jeux et le streaming d'applications.
+En informatique, <ins>un accélérateur matériel</ins> est un composant qui peut accélérer le traitement des données. Les instances de calcul accéléré sont idéales pour les charges de travail telles que les applications graphiques, le <ins>streaming</ins> de jeux et le streaming d'applications.
 
 ---
 
@@ -178,7 +178,16 @@ En calcul, les opérations d'entrée/sortie par seconde (IOPS) sont une métriqu
 
 ---
 
-## Tarification Amazon EC2
+![](images/instances-types.png) 
+![](images/instances-types-2.png) <!-- .element height="40%" width="40%" -->
+
+---
+
+## Demo
+
+---
+
+## la Tarification Amazon EC2
 
 - À la demande
 - Instances réservées
@@ -235,6 +244,17 @@ Une instance Spot peut être interrompue si la capacité devient indisponible ou
 Les hôtes dédiés sont des serveurs physiques avec des capacités d'instance Amazon EC2 intégralement dédiées à votre utilisation. 
 
 Vous pouvez utiliser vos licences logicielles par socket, par cœur ou par machine virtuelle existantes pour vous aider à maintenir la conformité des licences. Vous pouvez acheter des réservations d'hôtes dédiés à la demande et d'hôtes dédiés. De toutes les options Amazon EC2 couvertes, les hôtes dédiés sont les plus chers.
+
+
+---
+                                                            
+| Type d'instance <!-- .element: style="font-size:40%; color:#FFFF00" -->| Description <!-- .element: style="font-size:40%; color:#FFFF00" -->| Tarification <!-- .element: style="font-size:40%; color:#FFFF00" -->| 
+| --- | --- | --- | 
+| Instances à la demande  <!-- .element: style="font-size:40%; color:#FFFFFF" -->     | Instances flexibles, aucune obligation à long terme. Vous payez uniquement pour l'utilisation des instances.     <!-- .element: style="font-size:40%; color:#FFFFFF" -->   | Tarification à l'heure ou à la seconde (selon le type d'instance). Les prix varient selon la région, le type d'instance, et le système d'exploitation. Cette option est plus chère que les instances réservées ou spot, mais plus flexible. <!-- .element: style="font-size:40%; color:#FFFFFF" -->   | 
+| Instances réservées   <!-- .element: style="font-size:40%; color:#FFFFFF" -->       | Instances réservées sur 1 ou 3 ans. Convient pour des charges de travail prévisibles et à long terme. <!-- .element: style="font-size:40%; color:#FFFFFF" -->              | Tarification avec engagement à long terme. Jusqu'à 72% de réduction par rapport à la demande. Les tarifs sont fixés à l'avance selon la durée d'engagement (1 ou 3 ans) et le paiement choisi (paiement intégral, partiel, ou à l'usage).  <!-- .element: style="font-size:40%; color:#FFFFFF" -->  | 
+| EC2 Instance Savings Plans  <!-- .element: style="font-size:40%; color:#FFFFFF" -->  | Offre une flexibilité similaire aux Instances Réservées tout en permettant des économies sur une plus grande variété de types et tailles d'instances.   <!-- .element: style="font-size:40%; color:#FFFFFF" -->             | Tarification flexible avec économies garanties. Jusqu'à 72% de réduction par rapport à la demande. L’engagement est de 1 ou 3 ans, et la réduction est appliquée automatiquement sur n’importe quelle instance EC2 utilisée. <!-- .element: style="font-size:40%; color:#FFFFFF" -->       | 
+| Instances Spot   <!-- .element: style="font-size:40%; color:#FFFFFF" -->            | Instances disponibles à prix réduit en fonction des capacités inutilisées d'AWS. Risque d'interruption si AWS a besoin des capacités.     <!-- .element: style="font-size:40%; color:#FFFFFF" -->          | Tarification dynamique. Jusqu’à 90% de réduction par rapport à la demande. Idéales pour des tâches temporaires ou tolérantes aux interruptions. Le prix varie en fonction de l'offre et de la demande. Les instances peuvent être arrêtées par AWS à tout moment. <!-- .element: style="font-size:40%; color:#FFFFFF" -->    | 
+| Hôtes dédiés  <!-- .element: style="font-size:40%; color:#FFFFFF" -->               | Serveurs physiques dédiés à une utilisation par un seul client. Vous pouvez exécuter plusieurs instances EC2 sur un hôte dédié.    <!-- .element: style="font-size:40%; color:#FFFFFF" -->     | Tarification à l'hôte dédié. Tarification par hôte, avec une facturation à l’heure. Idéale pour les charges de travail nécessitant des serveurs dédiés pour des raisons de conformité ou de réglementation.  <!-- .element: style="font-size:40%; color:#FFFFFF" -->    | 
 
 ---
 
@@ -348,6 +368,11 @@ Applications monolithiques <!-- .element: style="font-size:50%; color:#FFFFFF" -
 
 ---
 
+![](images/sns.png) 
+
+
+---
+
 ## Amazon Simple Queue Service (Amazon SQS)
 
 - Service de mise en file d'attente de messages
@@ -355,6 +380,21 @@ Applications monolithiques <!-- .element: style="font-size:50%; color:#FFFFFF" -
 - Dans Amazon SQS, une application envoie des messages dans une file d'attente. Un utilisateur ou un service extrait un message de la file d'attente, le traite, puis le supprime de la file d'attente.
 
 ---
+
+![](images/sqs.png) 
+
+---
+
+| Caractéristique         <!-- .element: style="font-size:40%; color:#FFFF00" -->         | Amazon SNS (Simple Notification Service) <!-- .element: style="font-size:40%; color:#FFFF00" -->   | Amazon SQS (Simple Queue Service) <!-- .element: style="font-size:40%; color:#FFFF00" -->     |
+|--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| Modèle de communication <!-- .element: style="font-size:40%; color:#FFFFFF" -->         | Pub/Sub (Publish/Subscribe) : un message est publié sur un sujet et distribué à plusieurs abonnés.                            <!-- .element: style="font-size:40%; color:#FFFFFF" --> | File d'attente point à point : les messages sont envoyés à une file d'attente et consommés par un seul récepteur.  <!-- .element: style="font-size:40%; color:#FFFFFF" -->    |
+| Type de messagerie      <!-- .element: style="font-size:40%; color:#FFFFFF" -->         | Notification en temps réel : les messages sont immédiatement envoyés à tous les abonnés (services, applications, ou e-mails). <!-- .element: style="font-size:40%; color:#FFFFFF" --> | Mise en file d'attente : les messages sont stockés dans une file d'attente jusqu'à ce qu'ils soient récupérés.     <!-- .element: style="font-size:40%; color:#FFFFFF" -->     |
+| Destinataires           <!-- .element: style="font-size:40%; color:#FFFFFF" -->         | Plusieurs abonnés peuvent recevoir un message (abonnés à un sujet).                                                           <!-- .element: style="font-size:40%; color:#FFFFFF" --> | Un seul consommateur lit et traite chaque message d'une file d'attente.                                            <!-- .element: style="font-size:40%; color:#FFFFFF" -->        |
+| Abonnements possibles   <!-- .element: style="font-size:40%; color:#FFFFFF" -->         | Services comme AWS Lambda, HTTP/HTTPS endpoints, e-mails, SMS, ou SQS (peut envoyer des messages à des files SQS).            <!-- .element: style="font-size:40%; color:#FFFFFF" --> | Les consommateurs lisent les messages via polling (interrogation) à partir de la file d'attente.                   <!-- .element: style="font-size:40%; color:#FFFFFF" -->        |
+| Scénarios d'utilisation <!-- .element: style="font-size:40%; color:#FFFFFF" -->         | Notifications push à plusieurs services ou utilisateurs (alerte, publication d'événements, etc.).                             <!-- .element: style="font-size:40%; color:#FFFFFF" --> | Traitement asynchrone des tâches, décorrélation des systèmes (file d'attente des tâches de traitement en arrière-plan).  <!-- .element: style="font-size:40%; color:#FFFFFF" -->   |
+
+---
+
 
 <!-- .slide: data-auto-animate -->
 #### Quiz: Quel service AWS est le meilleur choix pour publier des messages aux abonnés ? <!-- .element: style="color:#fd9731;" -->
