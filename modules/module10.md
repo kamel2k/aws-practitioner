@@ -88,37 +88,6 @@ Six pilliers
 
 ---
 
-## Avantages du cloud computing
-
-- Remplacer les dépenses initiales par les dépenses variables.
-- Bénéficier d'importantes économies d'échelle.
-- Cesser de deviner la capacité nécessaire.
-- Gagner en vitesse et en agilité.
-- Ne plus dépenser d'argent pour l'exécution et la maintenance des centres de données.
-- Passer à l'international en quelques minutes
-
----
-
-<!-- .slide: data-auto-animate -->
-#### Quiz: Quel processus confère d'importantes économies d'échelle ? <!-- .element: style="color:#fd9731;" -->
-
-- Déploiement d'une application dans plusieurs régions du monde
-- Tarification à l'utilisation moindre en raison de l'utilisation groupée des services par les clients AWS
-- Paiement du temps de calcul au fur et à mesure de votre utilisation, plutôt que d'investir des frais initiaux dans des centres de données
-- Mise à l'échelle de la capacité de vos infrastructures pour répondre à la demande
-
----
-
-<!-- .slide: data-auto-animate -->
-#### Quiz: Quel processus confère d'importantes économies d'échelle ? <!-- .element: style="color:#fd9731;" -->
-
-- Déploiement d'une application dans plusieurs régions du monde
-- Tarification à l'utilisation moindre en raison de l'utilisation groupée des services par les clients AWS <!-- .element: style="color:#0de07d;" -->
-- Paiement du temps de calcul au fur et à mesure de votre utilisation, plutôt que d'investir des frais initiaux dans des centres de données
-- Mise à l'échelle de la capacité de vos infrastructures pour répondre à la demande
-
----
-
 <!-- .slide: data-auto-animate -->
 #### Quiz: Quel pilier du cadre AWS Well-Architected Framework inclut la capacité à efficacement exécuter des charges de travail et à obtenir des informations sur leurs opérations ? <!-- .element: style="color:#fd9731;" -->
 
@@ -136,25 +105,3 @@ Six pilliers
 - Excellence opérationnelle <!-- .element: style="color:#0de07d;" -->
 - Efficacité des performances
 - Fiabilité
-
----
-
-<!-- .slide: data-auto-animate -->
-#### Quiz: Quels sont les avantages du cloud computing ? (Sélectionnez DEUX propositions.) <!-- .element: style="color:#fd9731;" -->
-
-- Gagner en vitesse et en agilité
-- Bénéficier d'économies d'échelle moindres.
-- Négocier les dépenses variables pour les dépenses initiales.
-- Maintenir la capacité des infrastructures.
-- Ne dépensez plus d'argent pour l'exécution et la maintenance des centres de données.
-
----
-
-<!-- .slide: data-auto-animate -->
-#### Quiz: Quels sont les avantages du cloud computing ? (Sélectionnez DEUX propositions.) <!-- .element: style="color:#fd9731;" -->
-
-- Gagner en vitesse et en agilité <!-- .element: style="color:#0de07d;" -->
-- Bénéficier d'économies d'échelle moindres.
-- Négocier les dépenses variables pour les dépenses initiales.
-- Maintenir la capacité des infrastructures.
-- Ne dépensez plus d'argent pour l'exécution et la maintenance des centres de données. <!-- .element: style="color:#0de07d;" -->

@@ -318,7 +318,7 @@ ensemble de périphériques physiques qui permettent de transporter physiquement
 ---
 
 <!-- .slide: data-auto-animate -->
-#### Quiz: Quelle perspective du Framework d'adoption du Cloud AWS vous permet de structurer la sélection et l'implémentation des contrôles ? <!-- .element: style="color:#fd9731;" -->
+#### Quiz: Quelle perspective du Framework d'adoption du Cloud AWS vous permet de structurer la sélection et l'implémentation des contrôles de securité ? <!-- .element: style="color:#fd9731;" -->
 
 - Perspective Gouvernance
 - Perspective Sécurité
@@ -328,7 +328,7 @@ ensemble de périphériques physiques qui permettent de transporter physiquement
 ---
 
 <!-- .slide: data-auto-animate -->
-#### Quiz: Quelle perspective du Framework d'adoption du Cloud AWS vous permet de structurer la sélection et l'implémentation des contrôles ? <!-- .element: style="color:#fd9731;" -->
+#### Quiz: Quelle perspective du Framework d'adoption du Cloud AWS vous permet de structurer la sélection et l'implémentation des contrôles de sécurité ? <!-- .element: style="color:#fd9731;" -->
 
 - Perspective Gouvernance
 - Perspective Sécurité <!-- .element: style="color:#0de07d;" -->

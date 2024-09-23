@@ -230,10 +230,13 @@ Les clients de la formule de Support Développeur ont accès à des fonctions te
 
 Les clients disposant d'une formule de Support Business ont accès à des fonctions supplémentaires, notamment : 
 
+- Assistance pour des problèmes techniques, des configurations de service, ou des questions liées à l'infrastructure.
+- Temps de réponse rapide
+  - Cas critiques  : Temps de réponse de moins de 1 heure.
+  - Cas importants : Temps de réponse de moins de 4 heures.
+  - Cas standards  : Temps de réponse de moins de 12 heures.
 - Conseils selon les cas d'utilisation pour identifier les offres, les fonctions et les services AWS qui répondent le mieux à vos besoins spécifiques
 - Toutes les vérifications AWS Trusted Advisor
-- Support limité pour les logiciels tiers, tels que les systèmes d'exploitation courants et les composants de piles d'applications
-- Ex : Installation d'un système d'exploitation tiers sur les instances Amazon EC2
 
 ---
 
