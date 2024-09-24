@@ -166,6 +166,23 @@ Six pilliers
 
 AWS Glue est un service ETL sans serveur automatisé conçu pour la préparation et la transformation de données pour l'analyse, tandis que AWS Data Pipeline est un service d'orchestration flexible permettant de déplacer et traiter les données entre différents services AWS ou environnements sur site avec plus de contrôle manuel.
 
+---
+
+## Autres Services managés 7
+
+- Amazon Polly est un service de synthèse vocale qui convertit du texte en discours réaliste
+- AWS CodeCommit est un service de gestion de code source entièrement géré qui facilite le stockage et la gestion de votre code dans des dépôts Git.
+- AWS CodeArtifact est un service de gestion de référentiels qui vous permet de stocker, partager et déployer des artefacts de logiciels.
+- AWS CodeBuild est un service entièrement géré qui compile le code source, exécute des tests et produit des artefacts prêts à être déployés.
+- AWS Cloud Map est un service de découverte de services qui permet de localiser les ressources cloud et de les associer à des noms de services
+- AWS OpsCenter est un service qui facilite la gestion et la résolution des problèmes liés aux ressources AWS.
+
+---
+
+## Autres Services managés 8
+
+- Amazon Macie est un service de sécurité et de protection des données qui utilise l'apprentissage automatique pour aider à découvrir, classer et protéger les données sensibles dans Amazon S3.
+- AWS Migration Hub est un service qui facilite la planification et la gestion des migrations vers AWS. Il fournit une vue centralisée de vos projets de migration, vous aidant à suivre le progrès et à coordonner les efforts de migration.
 
 
 
